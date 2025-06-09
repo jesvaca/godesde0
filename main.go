@@ -1,9 +1,6 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/jesvaca/godesde0/ejercicios"
 	"github.com/jesvaca/godesde0/files"
 )
 
@@ -59,9 +56,13 @@ func main() {
 
 	// Tema ciclos for
 	// ciclos.Ciclos(10, 30)
-	tablaMul := ejercicios.TablaMultiplicar()
-	fmt.Println("Tabla de multiplicar")
-	fmt.Println("===================")
-	fmt.Println(tablaMul)
-	files.GrabaTabla(tablaMul)
+	/*
+		tablaMul := ejercicios.TablaMultiplicar()
+		fmt.Println("Tabla de multiplicar")
+		fmt.Println("===================")
+		fmt.Println(tablaMul)
+		// files.GrabaTabla(tablaMul)
+		files.SumaTabla(tablaMul)
+	*/
+	files.LeoArchivo()
 }
