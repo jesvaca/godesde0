@@ -30,4 +30,12 @@ func MostrarMapas() {
 	// Eliminar un elemento del mapa
 	delete(campeonato, "Real Madrid")
 	fmt.Println(campeonato)
+
+	// Indagar si una clave y dato existe en mapa
+	puntaje, existe := campeonato["Toluca"]
+	if existe {
+		fmt.Printf("El puntaje capturado es %d, y el equipo existe %t \n", puntaje, existe)
+	} else {
+		fmt.Printf("El equipo no existe %t \n", existe)
+	}
 }

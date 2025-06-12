@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jesvaca/godesde0/mapas"
+	users "github.com/jesvaca/godesde0/Users"
 )
 
 /*
@@ -10,7 +10,19 @@ import (
 	Excelente lenguaje
 */
 
+// Declaración de CONSTANTES|
+
+const (
+	USERNAME string = "jesvaca"
+	PASSWORD string = "12345"
+)
+
 func main() {
+
+	// Desplegamos las constantes
+	// fmt.Println("Nombre de usuario: " + USERNAME)
+	// fmt.Println("Contraseña: " + PASSWORD)
+
 	//var tablaMul string
 	/*
 		variables.MuestroEnteros()
@@ -71,5 +83,6 @@ func main() {
 	// arreglosslices.MuestroArreglos()
 	// arreglosslices.MuestroSlices()
 	// arreglosslices.Capacidad()
-	mapas.MostrarMapas()
+	// mapas.MostrarMapas()
+	users.AltaUsuario()
 }
