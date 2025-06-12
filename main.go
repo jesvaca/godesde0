@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jesvaca/godesde0/files"
+	"github.com/jesvaca/godesde0/mapas"
 )
 
 /*
@@ -64,5 +64,12 @@ func main() {
 		// files.GrabaTabla(tablaMul)
 		files.SumaTabla(tablaMul)
 	*/
-	files.LeoArchivo()
+	// files.LeoArchivo()
+	// funciones.Calculos()
+	// funciones.LlamarClosure()
+	// funciones.Exponencia(3)
+	// arreglosslices.MuestroArreglos()
+	// arreglosslices.MuestroSlices()
+	// arreglosslices.Capacidad()
+	mapas.MostrarMapas()
 }
