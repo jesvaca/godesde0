@@ -1,7 +1,7 @@
 package main
 
 import (
-	users "github.com/jesvaca/godesde0/Users"
+	"github.com/jesvaca/godesde0/deferpanic"
 )
 
 /*
@@ -84,5 +84,12 @@ func main() {
 	// arreglosslices.MuestroSlices()
 	// arreglosslices.Capacidad()
 	// mapas.MostrarMapas()
-	users.AltaUsuario()
+	// users.AltaUsuario()
+	// Pedro := new(modelos.Hombre)
+	// Maria := new(modelos.Mujer)
+	// e.HumanosRespirando(Pedro)
+	// e.HumanosRespirando(Maria)
+	//deferpanic.VemosDefer()
+	deferpanic.EjemploPanic()
+
 }
