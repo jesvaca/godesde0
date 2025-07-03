@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jesvaca/godesde0/deferpanic"
+	"github.com/jesvaca/godesde0/go_routines"
 )
 
 /*
@@ -90,6 +90,7 @@ func main() {
 	// e.HumanosRespirando(Pedro)
 	// e.HumanosRespirando(Maria)
 	//deferpanic.VemosDefer()
-	deferpanic.EjemploPanic()
+	//deferpanic.EjemploPanic()
+	go_routines.MiNombreLento("José de Jesús Vaca Ruelas")
 
 }
