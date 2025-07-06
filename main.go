@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/jesvaca/godesde0/go_routines"
+	"github.com/jesvaca/godesde0/middleware"
 )
 
 /*
@@ -91,6 +91,13 @@ func main() {
 	// e.HumanosRespirando(Maria)
 	//deferpanic.VemosDefer()
 	//deferpanic.EjemploPanic()
-	go_routines.MiNombreLento("José de Jesús Vaca Ruelas")
 
+	/* cana1 := make(chan bool, 1)
+	go go_routines.MiNombreLento("José de Jesús Vaca Ruelas", cana1)
+	fmt.Println("Estoy aquí")
+	// var x string
+	// fmt.Scanln(&x)
+	<-cana1 */
+	// webserver.MiWebServer()
+	middleware.MiMiddleware()
 }
